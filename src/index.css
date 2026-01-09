@@ -1,1 +1,45 @@
 @import "tailwindcss";
+
+@keyframes tile-flip {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  50% {
+    transform: rotateX(90deg);
+  }
+
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+.tile-flip {
+  animation: tile-flip 0.3s ease-in-out;
+  transition: background-color 0s ease-in-out;
+  transition-delay: 150ms;
+  background-color: white;
+}
+
+@keyframes tile-shake {
+
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+
+  20%,
+  60% {
+    transform: translateX(-5px);
+  }
+
+  40%,
+  80% {
+    transform: translateX(5px);
+  }
+}
+
+.tile-shake {
+  animation: tile-shake 0.3s ease-in-out;
+  background-color: #008236;
+}

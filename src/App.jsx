@@ -1,14 +1,10 @@
-import { useState } from 'react'
-import './App.css'
+import Game from './Game/Game.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <h1>Memory Tiles</h1>
-    </>
+    <Game />
   )
 }
 
-export default App
+export default App;

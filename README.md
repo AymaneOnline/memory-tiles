@@ -1,16 +1,93 @@
-# React + Vite
+# 🧠 Memory Tiles – Visual Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visual memory game inspired by HumanBenchmark, built with **React** and **Tailwind CSS**.  
+The goal is simple: remember the highlighted tiles and select them correctly as the difficulty increases.
 
-Currently, two official plugins are available:
+## 🎮 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 Live Demo: [Add your deployed link here]  
+👉 Screenshot / GIF:
+![Memory Tiles Demo](./demo.gif)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧩 Features
 
-## Expanding the ESLint configuration
+- Progressive difficulty (board size and tile count increase with levels)
+- Memorization & selection phases
+- Limited lives system
+- Smooth tile animations (flip & shake)
+- Sound effects for game actions
+- Win / lose flash overlay
+- High score saved using `localStorage`
+- Fully responsive layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+- **React**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **CSS animations**
+- **HTML5 Audio API**
+
+---
+
+## 🧠 Game Mechanics
+
+- Tiles briefly appear during the **memorization phase**
+- Player selects tiles during the **selection phase**
+- Wrong selections reduce lives
+- Completing a level increases difficulty
+- Game ends when all lives are lost
+
+---
+
+## 📂 Project Structure
+
+src/
+├── Game/
+│ ├── Game.jsx
+│ ├── GameMenu.jsx
+│ ├── GameScreen.jsx
+│ ├── GameOverScreen.jsx
+│ └── FlashOverlay.jsx
+├── Board/
+│ ├── Board.jsx
+│ └── Tile.jsx
+├── utils/
+│ └── sounds.js
+├── index.css
+└── App.jsx
+
+yaml
+Copy code
+
+---
+
+## 🚀 What I Learned
+
+- Managing complex UI state with React hooks
+- Handling game phases and transitions cleanly
+- Creating reusable components
+- Building animations with CSS and Tailwind
+- Using sound effects responsibly in web apps
+- Structuring a medium-sized React project
+
+---
+
+## 🔮 Possible Improvements
+
+- Refactor state management using `useReducer`
+- Add keyboard support for accessibility
+- Add difficulty selection
+- Improve animations with Framer Motion
+
+---
+
+## 📌 Author
+
+**Aymane**  
+Frontend Developer  
+[GitHub](https://github.com/aymaneonline) • [Portfolio](https://your-portfolio.com)
