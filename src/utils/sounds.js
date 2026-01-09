@@ -1,9 +1,9 @@
 const sounds = {
-  reveal: new Audio('/sounds/reveal.mp3'),
-  hide: new Audio('/sounds/hide.mp3'),
-  correct: new Audio('/sounds/correct.mp3'),
-  wrong: new Audio('/sounds/wrong.mp3'),
-  success: new Audio('/sounds/success.mp3'),
+  reveal: new Audio(import.meta.env.BASE_URL + '/sounds/reveal.mp3'),
+  hide: new Audio(import.meta.env.BASE_URL + '/sounds/hide.mp3'),
+  correct: new Audio(import.meta.env.BASE_URL + '/sounds/correct.mp3'),
+  wrong: new Audio(import.meta.env.BASE_URL + '/sounds/wrong.mp3'),
+  success: new Audio(import.meta.env.BASE_URL + '/sounds/success.mp3'),
 }
 
 Object.values(sounds).forEach(sound => {
