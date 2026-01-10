@@ -46,23 +46,22 @@ The goal is simple: remember the highlighted tiles and select them correctly as 
 
 ## 📂 Project Structure
 
+```text
 src/
 ├── Game/
-│ ├── Game.jsx
-│ ├── GameMenu.jsx
-│ ├── GameScreen.jsx
-│ ├── GameOverScreen.jsx
-│ └── FlashOverlay.jsx
+│   ├── Game.jsx
+│   ├── GameMenu.jsx
+│   ├── GameScreen.jsx
+│   ├── GameOverScreen.jsx
+│   └── FlashOverlay.jsx
 ├── Board/
-│ ├── Board.jsx
-│ └── Tile.jsx
+│   ├── Board.jsx
+│   └── Tile.jsx
 ├── utils/
-│ └── sounds.js
+│   └── sounds.js
 ├── index.css
 └── App.jsx
-
-yaml
-Copy code
+```
 
 ---
 
