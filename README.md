@@ -5,7 +5,7 @@ The goal is simple: remember the highlighted tiles and select them correctly as 
 
 ## 🎮 Demo
 
-👉 Live Demo: [Add your deployed link here]  
+👉 Live Demo: [https://aymaneonline.github.io/memory-tiles/]  
 👉 Screenshot / GIF:
 ![Memory Tiles Demo](./demo.gif)
 

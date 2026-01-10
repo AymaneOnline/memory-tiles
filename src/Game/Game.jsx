@@ -9,7 +9,7 @@ export default function Game() {
   const [gameStarted, setGameStarted] = useState(false);
   const [level, setLevel] = useState(1);
   const [tiles, setTiles] = useState([]);
-  const [gamePhase, setGamePhase] = useState('gameStart');
+  const [gamePhase, setGamePhase] = useState('idle');
   const [lives, setLives] = useState(3);
   const [wrongSelections, setWrongSelections] = useState(0);
   const [flashType, setFlashType] = useState('normal');
@@ -26,6 +26,7 @@ export default function Game() {
   // Start the game
   function onStartGame() {
     setGameStarted(true);
+    setGamePhase('gameStart');
     setAudioUnlocked(true);
   }
 
