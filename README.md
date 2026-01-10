@@ -89,5 +89,4 @@ src/
 
 **Aymane**  
 Frontend Developer  
-[GitHub](https://github.com/aymaneonline)
-[Portfolio](https://aymaneonline.dev)
+[GitHub](https://github.com/aymaneonline) • [Portfolio](https://aymaneonline.dev)
