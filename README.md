@@ -8,6 +8,7 @@ The goal is simple: remember the highlighted tiles and select them correctly as 
 👉 Live Demo: [https://aymaneonline.github.io/memory-tiles/]  
 👉 Screenshot / GIF:
 ![Memory Tiles Demo](./demo.gif)
+![Memory Tiles Screenshot](./screenshot.png)
 
 ---
 
