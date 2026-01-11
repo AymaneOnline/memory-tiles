@@ -7,8 +7,10 @@ The goal is simple: remember the highlighted tiles and select them correctly as 
 
 👉 Live Demo: [https://aymaneonline.github.io/memory-tiles/]  
 👉 Screenshot / GIF:
-![Memory Tiles Screenshot](./screenshot.png)
-<img src="demo.gif" width="600" height="400">
+<p>
+  <img src="./screenshot.png" width="600" alt="Memory Tiles screenshot" />
+  <img src="demo.gif" width="600" height="400" alt="Memory Tiles gameplay demo">
+</p>
 
 ---
 
