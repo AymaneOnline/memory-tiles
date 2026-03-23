@@ -76,12 +76,12 @@ src/
 - Building animations with CSS and Tailwind
 - Using sound effects responsibly in web apps
 - Structuring a medium-sized React project
+- Refactoring state management using `useReducer`
 
 ---
 
 ## 🔮 Possible Improvements
 
-- Refactor state management using `useReducer`
 - Add keyboard support for accessibility
 - Add difficulty selection
 - Improve animations with Framer Motion
